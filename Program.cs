@@ -8,6 +8,10 @@ namespace Geam_Demo
         {
             //player 2 คนหัวใจ มีคนล่ะ 3 ดวง
             //gramManager ทำหน้าที่คุมเกม
+
+            var player1 = new Player("poiy");
+
+            var player2 = new Player("oil");
         }
     }
 }
