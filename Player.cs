@@ -8,13 +8,15 @@ namespace Geam_Demo
 {
     class Player
     {
-        public string Name { get; private set; }
-        public int HeartScore { get; private set; }
+        public string PlayerName1 { get; private set; }
+        public string PlayerName2 { get; private set; }
+        
 
-        public Player(string name)
+        public Player(string py1, string py2)//ให้กำหนดผ่าน parameter
         {
-            Name = name;
-            HeartScore = 3;
+            PlayerName1 = py1;
+            PlayerName2 = py2;
+            
         }
     }
 }
